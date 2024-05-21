@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+a{
+    color: #919FFF;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(-10deg, #333066, #50428C);
+    font-size: 1em;
+}
+
+h1{
+
+    text-align: center;
+    color: #6663B3;
+    text-shadow: 2px 2px 2px #91a0ffb9;
+}
+
+h2{
+    color: #7C7CD9;
+}
+
+h3{
+    color: #919FFF;    
+}
+
+main{
+    background-color: whitesmoke;
+    width: 1200px;
+    margin:auto;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif ;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #919FFF;
+    padding: 20px;
+}
+
+mark{
+    background-color: #7C7CD9;
+}

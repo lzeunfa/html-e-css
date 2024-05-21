@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* O ID em CSS é = #
+   A CLASS em CSS é = .
+*/
+
+body{background-color: #8800F0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main#secundario{background-image: linear-gradient(to bottom, white 80%, #6E349B, #7E21C5, #8800F0);
+    border-radius: 20px;
+    margin-left: 433px;
+    padding: 10px;
+    width: 800px;
+    margin-top: 12px;
+}
+
+main{background-image: linear-gradient(to top, white 80%, #6E349B, #7E21C5, #8800F0);
+    border-radius: 20px;
+    margin-right: auto;
+    padding: 10px;
+    width: 800px;
+
+}
+
+h1#principal{text-align: right;
+    color: antiquewhite;
+}
+
+h1{text-align: justify;
+    color: black;
+
+}
+
+h2{text-align: justify;
+    color: #3C2E46;
+}
+
+p{text-align: justify;
+    text-indent: 20px;
+}
+
+.basico{color: #8800F0;
+
+}
+
+.intermediario{color: #6E349B;
+
+}
+
+.avancado{color: #3C2E46;
+
+}
+
+.destaque{background-color: #6e349bad;
+
+}

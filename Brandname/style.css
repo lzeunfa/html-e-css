@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+:root{color:#52524F;
+      color: #FBFEED;
+      color: #FFD051;  
+      color: #FF9E00;
+      color: #000000;
+
+}
+
+body{background-color: #52524F;
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+}
+
+header{background-color: #52524F;
+  margin-bottom: 40px;
+
+}
+
+header > h1{font-family: "Bebas Neue",'Times New Roman', Times, sans-serif;
+        font-size: 1.8em;
+        font-weight: 10;
+        color: #FBFEED;
+        margin-top: 0px;
+        padding: 35px 120px 0px 200px;
+        display: inline-block;
+        text-shadow: 0.3px 0.3px 0.3px #ffd151a6;
+
+}
+
+nav{display: inline;
+
+}
+
+header > nav> a{font-family: 'Times New Roman', Times, serif;
+                text-decoration: none;
+                color: #fbfeedcc;
+                padding-right: 30px;
+
+}
+
+header > nav> a:hover{color: #FF9E00;
+                      text-decoration: overline underline;
+                      transition: 0.5s;
+}
+
+header > nav> .contact{padding-right: 200px;
+
+}
+
+header > nav > .login{color: #FFD051;
+
+}
+
+header > nav > .login:hover{color: #FF9E00;
+                            text-decoration: none;
+
+}
+
+header > nav > .join{border-radius: 5px;
+                    padding: 10px;
+                    border-style: outset;
+                    border-color: #FF9E00;
+                    
+
+}
+
+header > nav > .join:hover{text-shadow: 0.5px 0.5px 0.5px #ffd151a8;
+                          text-decoration: none;
+                          color: #000000;
+                          transition: 0.5s;
+                          background-color: #FF9E00
+
+}
+
+main{background-color: #52524F;
+    display: inline-block;
+
+}
+
+main > .jus{color: #FFD051;
+            padding-left: 150px;
+            padding-top: 50px;
+
+}
+
+main > h1{padding-left: 150px;
+          color: #FBFEED;
+          text-shadow: 0.5px 0.5px 0.5px #FFD051;
+
+}
+
+main > p{padding-left: 150px ;
+          padding-bottom: 0px;
+          color: #fbfeede1;
+
+}
+
+
+main > p > .js{text-decoration: none;
+          padding: 10px;
+          color: #FBFEED;
+          border-style: groove;
+          border-color: #FF9E00;
+          border-radius: 5px;
+          border-width: 1px;
+
+}
+
+main > p > .js:hover{background-color: #FF9E00;
+                      color: #000000;
+                      transition: 0.5s;
+}
+
+
+main > p > .ln{text-decoration: none;
+          padding: 10px;
+          color: #000000;
+          border-style: groove;
+          border-color: #FF9E00;
+          border-radius: 5px;
+          border-width: 1px;
+          background-color: #FF9E00;
+
+}
+
+main > p > .ln:hover{background-color: #52524F;
+                      color: #FBFEED;
+                      transition: 0.5s; 
+}
+
+img{display: inline-block;
+  background-color: #52524F;
+  margin-left: 300px;
+  width: 400px;
+  border-style: outset;
+  border-radius: 10px;
+
+}

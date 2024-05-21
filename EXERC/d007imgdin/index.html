@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Imagem Dinâmica <img src="favicon.ico" alt="favicon eliseu"></h1>
+        <h2>Amplie ou reduza sua guia para desfrutar dos tamanhos diferentes da imagem.</h2>
+    </header>
+
+    <!--A maior imagem por último // colocar +50px além do tamanho das img P e M-->
+    <main>
+        <picture>
+            <source media="(max-width: 750px )" srcset="imagens/paisagem-p.png" type="image/png">
+            <source media="(max-width: 1050px )" srcset="imagens/paisagem-m.png" type="image/png">
+            <img src="imagens/paisagem-g.png" alt="mulher na paisagem rocha tamanho grande">
+        </picture>
+    </main>
+
+    <footer>
+        <h1>Site feito por:</h1>
+        <h2><img src="imagens/Perfil sociald52.png" alt="foto perfil criador do site">&Rarr; Eliseu Nóbrega, 17 anos</h2>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(-10deg, #007566, #265C4B);
+    font-size: 1em;
+}
+
+main{
+    margin: auto;
+    background-color: whitesmoke;
+    width: 1200;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #8FC1B5;
+}
+
+a{
+    text-decoration: none;
+    color: #007566;
+}
+
+h1{
+    text-align: center;
+    color: #007566;
+}
+
+h2{
+    color: #589A8D;
+}
+
+h3{
+    color: #4e6d66;
+}
+
+mark{
+    background-color: #8FC1B5;
+}
+
+video{
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 10px;
+}

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Cold';
+    src: url('polar_snow/Polar Snow.otf');
+}
+
+/*Tipos de formato
+        OTF= Open Type
+        TTF= True Type
+        embedded open type
+        truetype aat
+*/
+
+main{background-color: rgb(212, 212, 212);
+    margin: auto;
+    width: 800px;
+    padding: 20px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #203328;
+}
+
+body{background-image: linear-gradient(to right, #606773, #6a769d, #658dc8);
+
+}
+
+h1{font-family: 'Cold', 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p{text-align: center;
+  text-align: justify;
+  font-family: "Indie Flower", 'Times New Roman', Times, serif;
+
+}

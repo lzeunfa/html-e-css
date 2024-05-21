@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Droid" ;
+    src: url(fontes/idroid.otf);
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body{background-color: bisque;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px;
+    min-width: 280px;
+}
+
+header{background-image: linear-gradient(to bottom, #568C54, #347338, #27592B);
+        height: auto;
+        min-width: 300px;
+        margin-top: 0px;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.705);
+}
+
+header > h1{font-family: "Bebas Neue", 'Times New Roman', Times, serif;
+        margin-top: 0px;
+            padding-top: 15px;
+            text-align: center;
+            color: whitesmoke;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.76);
+
+}
+
+header > p{text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.76);
+            color: whitesmoke;
+            text-align: center;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+
+}
+
+nav{margin-top: 73px;
+    min-width: 300px;   
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+nav > a{color: white;
+        margin-bottom: 0px;
+        padding: 0px 20px 0px 10px;
+        text-decoration: none;
+        transition-duration: 0.4s;
+
+}
+
+nav > a:hover{background-color: #2fa865;
+            border-radius: 2px;
+            color: #27592B;
+
+}
+
+
+main{background-color: white;
+    margin: auto;
+    min-width: 300px;
+    max-width: 800px;
+    height: auto;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.795);
+}
+
+main > h1{font-family: "Droid", 'Times New Roman', Times, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.76);   
+    text-align: justify; 
+    color: rgb(46, 131, 86);
+    padding:20px 10px 0px 20px;
+    margin-top: 0px;
+    font-size: 1.5em;
+}
+
+main > p{font-family: 'Times New Roman', Times, sans-serif;
+    text-align: justify;
+    padding: 0px 20px 5px 20px;
+
+}
+
+main > p > mark{background-color: white;
+        color: #249420;
+
+}
+
+main > h2{background-image: linear-gradient(to right,  #72af70d3, white );
+    font-family: "Droid", 'Times New Roman', Times, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.76);   
+    text-align: justify; 
+    color: rgb(46, 131, 86);
+    padding:0px 0px 0px 3px;
+    margin-top: 0px;
+    font-size: 1.4em;
+    margin-left: 20px;
+}
+
+main > p > a{background-color: white;
+    color: #249420;
+    text-decoration: none;
+
+}
+
+main > p > a:hover{text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.712);
+
+}
+
+main > picture > img{width: 90%;
+
+}
+
+main > .droid > img{display: block;
+    margin: auto;
+
+}
+
+main > .droid > source{display: block;
+    margin: auto;
+
+}
+
+main > .irinap > img{display: block;
+    margin: auto;
+
+}
+
+main > .irinap > source{display: block;
+                        margin: auto;
+
+}
+
+main > .bug{display: block;
+            margin: auto;
+
+}
+
+main > article{background-color: #27592B;
+                min-width: 300px;
+
+}
+
+main > article > iframe{display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    min-width: 300px;
+
+}
+
+
+
+main > aside{background-color: rgb(197, 235, 214);
+    width: auto;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    margin: 0px 10px 0px 10px;
+    min-width: 300px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.795);
+
+}
+
+aside > h2{padding: 4px 0px 6px 6px;
+        background-color: #2FA866;
+        color:white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        font-size: 1em;
+
+}
+
+aside > p{padding: 0px 0px 5px 5px;
+        text-indent: 20px;
+        text-align: justify;
+
+}
+
+aside > ul{columns: 2;
+
+}
+
+aside > ul > li > abbr{text-decoration: underline;
+
+}
+
+aside > p > a{color: #249420;
+    text-decoration: none;
+
+}
+
+aside > p > a:hover{text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.712);
+
+}
+
+footer{background-color: #347338;
+        min-width: 300px;
+}
+
+footer > p{color: white;
+            margin: 0px;
+            text-align: center;
+            font-size: 0.8em;
+
+}
+
+footer > p > mark{background-color: #347338;
+                color: azure;
+                text-shadow: 1px 1px 1px black;
+
+}
+
+footer > p > a{text-shadow: 1px 1px 1px black;
+            color:azure ;
+            text-decoration: none;
+
+}

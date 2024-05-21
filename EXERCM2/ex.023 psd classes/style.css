@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+span{background-color: orangered;
+    text-align: center;
+    height: 80px;
+    width: 390px;
+    border: 1px solid grey;
+    display: block;
+    padding: 10px;
+}
+
+span:hover{background-image: linear-gradient(to top left, orangered, grey);
+
+}
+
+span > a{ display: none;
+
+}
+
+span:hover > a{
+
+}
+
+a{color: black;
+    text-decoration: none;
+
+}
+
+
