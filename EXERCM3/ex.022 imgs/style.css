@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{padding: 0px;
+    margin: 0px;
+    background-image: url("Imagens/wallpaper006.jpg");
+
+}
+
+h1{display: inline;
+    padding-left: 100px;
+}
+
+div.quadrado{
+    border: 1px solid black;
+    width: 150px;
+    height: 586px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+div.quadrado > p{text-align: center;
+                margin-top: 270px;
+                border: 2px solid rgb(141, 141, 141);
+                border-radius: 5px;
+
+}
+
+div.quadrado > p:hover{background-color: lightgrey;
+                        color: #19596B;
+
+}
+
+div#q1{background-color: #19596B;
+        margin-left: 480px;
+}
+
+div#q2{background-image: linear-gradient(to right, #19596B, #CDB0C3);
+    
+}
+
+div#q3{background-image: url("Imagens/pattern003.png");
+    
+}
