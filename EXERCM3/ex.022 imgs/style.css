@@ -55,6 +55,23 @@ div#q2{background-image: linear-gradient(to right, #19596B, #CDB0C3);
     
 }
 
+div#q2 > a{text-decoration: none;
+    color: black;
+
+}
+
+div#q2 > a > p{text-align: center;
+margin-top: 270px;
+border: 2px solid rgb(141, 141, 141);
+border-radius: 5px;
+
+}
+
+div#q2 > a > p:hover{background-color: lightgrey;
+color: #19596B;
+
+}
+
 div#q3{background-image: url("Imagens/pattern003.png");
     
 }
