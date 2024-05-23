@@ -75,3 +75,20 @@ color: #19596B;
 div#q3{background-image: url("Imagens/pattern003.png");
     
 }
+
+div#q3 > a{text-decoration: none;
+    color: black;
+
+}
+
+div#q3 > a > p{text-align: center;
+margin-top: 270px;
+border: 2px solid rgb(141, 141, 141);
+border-radius: 5px;
+
+}
+
+div#q3 > a > p:hover{background-color: lightgrey;
+color: #19596B;
+
+}
