@@ -34,6 +34,23 @@ div#q1{background-color: #19596B;
         margin-left: 480px;
 }
 
+div#q1 > a{text-decoration: none;
+            color: black;
+
+}
+
+div#q1 > a > p{text-align: center;
+    margin-top: 270px;
+    border: 2px solid rgb(141, 141, 141);
+    border-radius: 5px;
+
+}
+
+div#q1 > a > p:hover{background-color: lightgrey;
+    color: #19596B;
+
+}
+
 div#q2{background-image: linear-gradient(to right, #19596B, #CDB0C3);
     
 }
