@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{margin: 0px;
+
+}
+
+#container{background-color: rgba(128, 0, 128, 0.199);
+            background-image: url(Imagens/target001.png);
+            height: 97vh;
+            padding: 10px;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+
+
+
+}
+
+#conteudo{background-color: yellow;
+    background-image: url(Imagens/target001.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 400px;
+
+}
