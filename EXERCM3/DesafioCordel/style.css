@@ -113,7 +113,6 @@ section > .poesia > p{color: white;
 footer{background-color: black;
     height: 50px;
     margin-top: 50px;
-
 }
 
 footer > p{color: white;
@@ -130,5 +129,9 @@ footer > p > a{color: white;
 }
 
 footer > p > a:hover{text-decoration: underline;
+
+}
+
+footer > p > a > abbr{text-decoration: none;
 
 }
