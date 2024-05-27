@@ -39,7 +39,7 @@ header > h1{color: white;
             padding: 50px 0px 0px 0px;
             text-align: center;
             font-family: "Passion One", sans-serif;
-            font-size: 7em;
+            font-size: 6em;
             
 
 }
@@ -69,7 +69,7 @@ main{background-color: white;
 main > p{font-family: "Sriracha", cursive;
     text-align: justify;
     font-size: 2em;
-    padding: 0px 0px 0px 40px;
+    padding: 0px 0px 0px 20px;
 
 }
 
@@ -83,10 +83,8 @@ section{background-image: url(imagens/background001.jpg);
 }
 
 section > .poesia{background-color: rgba(0, 0, 0, 0.39);
-                    max-width: 448px;
-                    min-width: 400px;
-                    min-height: 450px;
-                    max-height: 500px ;
+                    width: 450px;
+                    height: 500px;
                     margin: 10px;
 
 }
