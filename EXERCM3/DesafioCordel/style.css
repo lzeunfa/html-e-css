@@ -80,12 +80,13 @@ section{background-color: bisque;
         background-attachment: fixed;
         padding: 5px 0px 20px 0px;
         box-shadow: 3px 3px 5px black;
-        min-width: 400px;
+        min-width: 300px;
        
 }
 
 section > .poesia{background-color: rgba(0, 0, 0, 0.39);
-                    width: 400px;
+                    min-width: 300px;
+                    max-width: 500px;
                     height: 550px;
                     margin: 10px;
 
