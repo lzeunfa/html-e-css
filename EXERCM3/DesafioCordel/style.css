@@ -73,12 +73,14 @@ main > p{font-family: "Sriracha", cursive;
 
 }
 
-section{background-image: url(imagens/background001.jpg);
+section{background-color: bisque;
+        background-image: url(imagens/background001.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: fixed;
         padding: 5px 0px 20px 0px;
         box-shadow: 3px 3px 5px black;
+        min-width: 400px;
        
 }
 
