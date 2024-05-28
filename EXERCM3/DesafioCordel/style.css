@@ -74,8 +74,7 @@ main > p{font-family: "Sriracha", cursive;
 
 }
 
-section{background-color: bisque;
-        background-image: url(imagens/background001.jpg);
+section{background-image: url(imagens/background001.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: fixed;
