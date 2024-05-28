@@ -75,13 +75,14 @@ main > p{font-family: "Sriracha", cursive;
 }
 
 section{background-image: url(imagens/background001.jpg);
-        background-repeat: no-repeat;
         background-position: center center;
         background-attachment: fixed;
+        background-size: cover;
         padding-top: 10vh;
         padding-bottom: 10vh;
         box-shadow: 3px 3px 5px black;
         min-width: 300px;
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.753);
        
 }
 
@@ -100,8 +101,7 @@ section > .poesia > p{color: white;
 
 }
 
-.livros{background-image: url(imagens/background002.jpg);
-        
+.livros{background-image: url(imagens/background002.jpg);      
 
 }
 
