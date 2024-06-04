@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grandes</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;
+        background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/34786546-mundo-mapa-mostrando-bandeiras-do-cada-pais-vetor.jpg);
+        background-position: center center;
+        background-size: 100%vh;
+        background-repeat: no-repeat;
+        margin: 0px;
+
+        }
+
+        h1{text-align: center;
+            background-color: rgba(255, 255, 255, 0.507);
+            margin: 0px;
+
+        }
+
+        p{text-align: center;
+            background-color: rgba(255, 255, 255, 0.507);
+            margin: 0px;
+        }
+
+        a{text-decoration: none;
+            color: blueviolet;
+
+        }
+
+        a:hover{font-weight: bold;
+
+        }
+
+        table{width: 400px;
+            border-collapse: collapse;
+            margin: auto;
+            margin-top: 100px;
+        }
+
+        caption{padding: 10px 0px 5px 0px;
+                color: gray;
+                font-weight: bold;
+                background-color: rgba(0, 0, 0, 0.801);
+
+        }
+
+        td, th{border: 1px solid black;
+            padding: 5px;
+
+        }
+
+        td.num{color: cornflowerblue;
+            text-align: right;
+
+        }
+
+        thead, tfoot{background-color: gray;
+            color: white;
+
+        }
+
+        tbody > tr:nth-child(odd){background-color: white;
+
+        }
+
+        tbody > tr:nth-child(even){background-color: bisque;
+
+}
+
+        tfoot > tr > td{text-align: right;
+            color: cornflowerblue;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <p>para retornar a outra página clique <a href="tabela.html">aqui</a></p>   
+    <table>
+        <caption>População de algumas unidades federativas</caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">total de habitantes</th>
+                <td><strong>99.225.847</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
