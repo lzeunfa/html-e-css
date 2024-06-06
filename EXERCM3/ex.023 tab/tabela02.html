@@ -9,7 +9,7 @@
         body{font-family: Arial, Helvetica, sans-serif;
         background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/34786546-mundo-mapa-mostrando-bandeiras-do-cada-pais-vetor.jpg);
         background-position: center center;
-        background-size: 100%vh;
+        background-size: cover;
         background-repeat: no-repeat;
         margin: 0px;
 
@@ -38,7 +38,8 @@
         table{width: 400px;
             border-collapse: collapse;
             margin: auto;
-            margin-top: 100px;
+            margin-top: 50px;
+            position: relative;
         }
 
         caption{padding: 10px 0px 5px 0px;
@@ -50,11 +51,18 @@
 
         td, th{border: 1px solid black;
             padding: 5px;
+            height: 30px;
 
         }
 
         td.num{color: cornflowerblue;
             text-align: right;
+
+        }
+
+        thead > tr > th{position: sticky;
+            top: -1px;
+            background-color: gray ;
 
         }
 
@@ -110,14 +118,70 @@
                 <td>Bahia</td>
                 <td class="num">14.873.064</td>
             </tr>
+
+            <tr>
+                <td>Pará</td>
+                <td class="num">8.602.865</td>
+            </tr>
+
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7.164.788</td>
+            </tr>
+
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">7.015.181</td>
+            </tr>
+
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7.018.354</td>
+            </tr>
+
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4.144.597</td>
+            </tr>
+
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">4.018.650</td>
+            </tr>
+
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.018.127</td>
+            </tr>
+
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3.506.653</td>
+            </tr>
+
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">3.454.456</td>
+            </tr>
+
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3.337.357</td>
+            </tr>
+
+            <tr>
+                <td>Piauí</td>
+                <td class="num">3.273.227</td>
+            </tr>
         </tbody>
 
         <tfoot>
             <tr>
                 <th scope="row">total de habitantes</th>
-                <td><strong>99.225.847</strong></td>
+                <td><strong>xxx.xxx.xxx</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>clique <a href="tabela03.html">aqui</a> para acessar próxima tabela</p>
 </body>
 </html>
