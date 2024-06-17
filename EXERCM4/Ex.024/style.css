@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+.passion-one-regular {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .passion-one-bold {
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .passion-one-black {
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .sriracha-regular {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+html, body{margin: 0px;
+    min-height: 100vh;
+}
+
+header{background-color: black;
+        width: auto;
+        color: white;
+    
+}
+
+header > h1{margin-top: 0px;
+            margin-bottom: 0px;
+            padding: 50px 0px 0px 0px;
+            text-align: center;
+            font-family: "Passion One", sans-serif;
+            font-size: 10vw;
+            font-variant: small-caps;
+            
+
+}
+
+header > p{text-align: center;
+            font-size: 1.2em;
+            padding: 0px 0px 45px 0px;
+            font-family: 'Times New Roman', Times, serif;
+
+}
+
+a{color: white;
+  text-decoration: none;
+  font-weight: bolder;
+
+}
+
+a:hover{text-decoration: underline;
+
+}
+
+main{background-color: white;
+
+}
+
+main > p{font-family: "Sriracha", cursive;
+    text-align: justify;
+    font-size: 3vw;
+    padding: 0px 0px 0px 20px;
+
+}
+
+section{background-image: url(imagens/background001.jpg);
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        box-shadow: 3px 3px 5px black;
+        min-width: 300px;
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.753);
+       
+}
+
+section > .poesia{background-color: rgba(0, 0, 0, 0.39);
+                    display: inline-block;
+                    margin: 20px;
+
+}
+
+section > .poesia > p{color: white;
+    font-family: "Sriracha", cursive;
+    text-align: justify;
+    font-size: 3vw;
+    text-align: center;
+    
+
+}
+
+.livros{background-image: url(imagens/background002.jpg);      
+
+}
+
+.predios{background-image: url(imagens/wallpaper002.jpg);
+
+}
+
+footer{background-color: black;
+    height: 30px;
+    margin-top: 50px;
+}
+
+footer > p{color: white;
+    text-align: center;
+    padding: 8px 0px 0px 0px;
+    margin: 0px;
+
+}
+
+footer > p > a > abbr{text-decoration: none;
+
+}
