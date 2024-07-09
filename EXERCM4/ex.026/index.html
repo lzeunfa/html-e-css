@@ -7,14 +7,19 @@
 </head>
 <body>
     <h1>Teste de formulário</h1>   
-    <form action="cadastro.php" method="post" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>Nome:
             <label for="inome"></label>
             <input type="text" name="nome" id="inome" required placeholder="Nome completo">
         </p>
         <p>Média:
             <label for="imedia"></label>
-            <input type="number" name="media" id="imedia" required min="0" max="10" placeholder="0 a 10" step="0.1">
+            <input type="number" name="media" id="imedia" required min="0" max="10" placeholder="0 a 10" step="0.1" value="5">
+        </p>
+
+        <p>
+            <label for="ihora">Horário da prova</label>
+            <input type="time" name="hora" id="ihora">
         </p>
 
         <p>
