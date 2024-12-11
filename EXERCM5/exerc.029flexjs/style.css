@@ -9,15 +9,16 @@
 div.conteiner{
     background-color: salmon;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
 }
 
 div.item{
-    width: 200px;
+    width: 100%;
     background-color: lightsalmon;
     border: 1px solid black;
-    height: 40px;
+    height: 100%;
     text-align: center;
 }
