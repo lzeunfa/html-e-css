@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+main{/*flex conteiner*/
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+    height: 90vh;
+    width: 90vw;
+    border-radius: 20px;
+}
+
+section{
+    background-color: lightsteelblue;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+section > h1{
+    text-align: center;
+}
