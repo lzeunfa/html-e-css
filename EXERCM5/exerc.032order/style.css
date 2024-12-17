@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div.conteiner{
+    background-color: salmon;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div.item{
+    background-color: lightsalmon;
+    border: 1px solid black;
+    text-align: center;
+    width: 300px;
+    padding: 40px;
+}

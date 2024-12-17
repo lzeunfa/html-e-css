@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div.conteiner{
+    background-color: salmon;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div.item{
+    background-color: lightsalmon;
+    border: 1px solid black;
+    flex-basis: auto;
+}
