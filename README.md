@@ -47,3 +47,19 @@
 * [Desafio tela de celular](https://lzeunfa.github.io/html-e-css/EXERCM4/D.Celular/página.html)
 
 ---
+
+### Módulo 5
+
+Ainda não finalizei este módulo, módulo baseado em ensinar sobre flex
+
+* **Exercícios flexbox**
+   * [Ex.01](https://lzeunfa.github.io/html-e-css/EXERCM5/exerc.027flexboxcmc/index.html)
+   * [Ex.02](https://lzeunfa.github.io/html-e-css/EXERCM5/exerc.028flex-dr-ax/index.html)
+   * [Ex.03](https://lzeunfa.github.io/html-e-css/EXERCM5/exerc.029flexjs/index.html)
+   * [Ex.04](https://lzeunfa.github.io/html-e-css/EXERCM5/exerc.030centrflex/exercflex005.html)
+   * [Ex.05](https://lzeunfa.github.io/html-e-css/EXERCM5/exerc.031/index.html)
+   * [Ex.06](https://lzeunfa.github.io/html-e-css/EXERCM5/exerc.032order/index.html)
+   * [Ex.07](https://lzeunfa.github.io/html-e-css/EXERCM5/exerc.033alingself/index.html)
+   * [Ex.08](https://lzeunfa.github.io/html-e-css/EXERCM5/exerc.034.flexbasis/index.html)
+
+---
