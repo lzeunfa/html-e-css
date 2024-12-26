@@ -14,4 +14,11 @@
 * [Desafio videos](https://lzeunfa.github.io/html-e-css/EXERC/dvideos/index.html)
 * [Site que fiz na época para estudar](https://lzeunfa.github.io/html-e-css/Estudos/index.html)
 * [Site que peguei de exemplo no tiktok para desafio](https://lzeunfa.github.io/html-e-css/Brandname/brand.html)
+
+### Módulo 2
+
+* [Exercício de gradiente/degradê](https://lzeunfa.github.io/html-e-css/EXERCM2/ex.017degrade/cor02.html)
+* [Exercicio com fonte externa](https://lzeunfa.github.io/html-e-css/EXERCM2/ex.020externalfont/index.html)
+* [Exercício com DIVS](https://lzeunfa.github.io/html-e-css/EXERCM2/ex.022id/index.html)
+* [Exercício grouping](https://lzeunfa.github.io/html-e-css/EXERCM2/ex.025grouping/index.html)
  
