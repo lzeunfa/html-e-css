@@ -15,6 +15,8 @@
 * [Site que fiz na época para estudar](https://lzeunfa.github.io/html-e-css/Estudos/index.html)
 * [Site que peguei de exemplo no tiktok para desafio](https://lzeunfa.github.io/html-e-css/Brandname/brand.html)
 
+---
+
 ### Módulo 2
 
 * [Exercício de gradiente/degradê](https://lzeunfa.github.io/html-e-css/EXERCM2/ex.017degrade/cor02.html)
@@ -22,9 +24,26 @@
 * [Exercício com DIVS](https://lzeunfa.github.io/html-e-css/EXERCM2/ex.022id/index.html)
 * [Exercício grouping](https://lzeunfa.github.io/html-e-css/EXERCM2/ex.025grouping/index.html)
 
+---
+
 ### Módulo 3
 
 * [Exercício com imagens](https://lzeunfa.github.io/html-e-css/EXERCM3/ex.022imgs/fundo001.html)
 * [Exercícios com tabelas](https://lzeunfa.github.io/html-e-css/EXERCM3/ex.023tab/tabela.html)
 * [Desafio Cordel](https://lzeunfa.github.io/html-e-css/EXERCM3/DesafioCordel/index.html)
- 
+
+---
+
+### Módulo 4
+
+* [Exercício com iframe](https://lzeunfa.github.io/html-e-css/EXERCM4/Ex.024/iframe.html)
+* **Exercícios com formulários**
+   * [Primeiro formulário](https://lzeunfa.github.io/html-e-css/EXERCM4/ex.025/index.html)
+   * [Segundo formulário](https://lzeunfa.github.io/html-e-css/EXERCM4/ex.026/index.html)
+   * [Terceiro formulário](https://lzeunfa.github.io/html-e-css/EXERCM4/ex.027/index.html)
+   * [Quarto formulário](https://lzeunfa.github.io/html-e-css/EXERCM4/ex.Formularios/form.06.html)
+
+* [Exercício com media queries](https://lzeunfa.github.io/html-e-css/EXERCM4/ex.mediaqueries/mq.005/index.html)
+* [Desafio tela de celular](https://lzeunfa.github.io/html-e-css/EXERCM4/D.Celular/página.html)
+
+---
