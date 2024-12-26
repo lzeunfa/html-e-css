@@ -26,26 +26,34 @@ body{background-color: #52524F;
 header{background-color: #52524F;
     height: 10vh;
     width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #FF9E00;
+    
 }
 
 header > h1{font-family: "Bebas Neue",'Times New Roman', Times, sans-serif;
-        font-size: 1.8em;
+        font-size: 2em;
         font-weight: 10;
+        padding-left: 20px;
         color: #FBFEED;
-        padding: 35px 120px 0px 200px;
         display: inline-block;
         text-shadow: 0.3px 0.3px 0.3px #ffd151a6;
 
 }
 
-nav{display: inline;
+nav{display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
 
 }
 
 header > nav> a{font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
                 text-decoration: none;
                 color: #fbfeedcc;
-                padding-right: 30px;
 
 }
 
@@ -54,7 +62,7 @@ header > nav> a:hover{color: #FF9E00;
                       transition: 0.5s;
 }
 
-header > nav> .contact{padding-right: 200px;
+header > nav> .contact{
 
 }
 
@@ -84,29 +92,35 @@ header > nav > .join:hover{text-shadow: 0.5px 0.5px 0.5px #ffd151a8;
 }
 
 main{background-color: #52524F;
-    display: inline-block;
-    height: 80vh;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
 
 }
 
-main > .jus{color: #FFD051;
+main > div{
+  width: 100%;
+}
+
+main > div > .jus{color: #FFD051;
             padding-left: 150px;
 
 }
 
-main > h1{padding-left: 150px;
+main > div > h1{padding-left: 150px;
           color: #FBFEED;
           text-shadow: 0.5px 0.5px 0.5px #FFD051;
 
 }
 
-main > p{padding-left: 150px ;
+main > div > p{padding-left: 150px ;
           color: #fbfeede1;
 
 }
 
 
-main > p > .js{text-decoration: none;
+main > div > p > .js{text-decoration: none;
           padding: 10px;
           color: #FBFEED;
           border-style: groove;
@@ -116,13 +130,13 @@ main > p > .js{text-decoration: none;
 
 }
 
-main > p > .js:hover{background-color: #FF9E00;
+main > div > p > .js:hover{background-color: #FF9E00;
                       color: #000000;
                       transition: 0.5s;
 }
 
 
-main > p > .ln{text-decoration: none;
+main > div > p > .ln{text-decoration: none;
           padding: 10px;
           color: #000000;
           border-style: groove;
@@ -133,14 +147,15 @@ main > p > .ln{text-decoration: none;
 
 }
 
-main > p > .ln:hover{background-color: #52524F;
+main > div > p > .ln:hover{background-color: #52524F;
                       color: #FBFEED;
                       transition: 0.5s; 
 }
 
 img{display: inline-block;
   background-color: #52524F;
-  margin-left: 300px;
   width: 400px;
+  height: 400px;
+  margin-right: 400px;
 
 }
