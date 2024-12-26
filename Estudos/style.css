@@ -10,9 +10,9 @@ body{
 }
 
 header{background-color: rgba(255, 255, 255, 0.829);
-       margin: 0px 0px 3px 0px;
-       border-radius: 10px;
-       height: 80px;
+        margin: 0px 0px 3px 0px;
+        border-radius: 10px;
+        height: 80px;
 }
 
 header > h1{margin:0px;
@@ -30,7 +30,7 @@ main{
     margin: 0px;
     background-color: rgba(255, 255, 255, 0.829);
     width: 1260px;
-    height: 18px;
+    height: 70vh;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #ffff00d8 ;
@@ -92,7 +92,6 @@ div:hover{box-shadow: 2px 2px 2px #797979;
 
 footer{background-color: rgba(255, 255, 255, 0.548);
         text-align: center;
-        margin-top: 376px;
         border-radius: 10px;
     
 
