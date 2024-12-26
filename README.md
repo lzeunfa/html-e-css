@@ -21,4 +21,10 @@
 * [Exercicio com fonte externa](https://lzeunfa.github.io/html-e-css/EXERCM2/ex.020externalfont/index.html)
 * [Exercício com DIVS](https://lzeunfa.github.io/html-e-css/EXERCM2/ex.022id/index.html)
 * [Exercício grouping](https://lzeunfa.github.io/html-e-css/EXERCM2/ex.025grouping/index.html)
+
+### Módulo 3
+
+* [Exercício com imagens](https://lzeunfa.github.io/html-e-css/EXERCM3/ex.022imgs/fundo001.html)
+* [Exercícios com tabelas](https://lzeunfa.github.io/html-e-css/EXERCM3/ex.023tab/tabela.html)
+* [Desafio Cordel](https://lzeunfa.github.io/html-e-css/EXERCM3/DesafioCordel/index.html)
  
